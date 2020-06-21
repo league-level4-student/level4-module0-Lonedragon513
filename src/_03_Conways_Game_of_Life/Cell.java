@@ -61,15 +61,16 @@ public class Cell implements Drawable{
 		if(isAlive == true) {
 			g.setColor(Color.red);
 			g.fillRect(x, y, cellSize, cellSize);
-			
+						
 		}
 		
 		if(isAlive == false) {
 			g.setColor(Color.black);
 			g.fillRect(x, y, cellSize, cellSize);
 			
+			
 		}
-		g.setColor(Color.white);
+	g.setColor(Color.white);
 		g.drawString(numbe+"", x, y+cellSize);
 		
 		
